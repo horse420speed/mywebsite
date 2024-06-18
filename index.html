@@ -1,13 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obsessed with Containerized Apps</title>
+    <style>
+        body {
+            font-family: Meiryo, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .neumorphism-btn {
+            display: inline-block;
+            padding: 9px 16px;
+            background-color: #4681f4;
+            color: #ffffff;
+	    text-align: center;
+            text-decoration: none;
+            border-radius: 12px;
+            transition: background-color 0.3s ease;
+	    font-size: 16px;
+	    cursor: pointer;
+	    box-shadow: 4px 4px 10px #bebebe, 
+               		-4px -4px 10px #ffffff;
+        }
+        .neumorphism-btn:hover {
+	    box-shadow: 6px 6px 12px #bebebe, 
+                	-6px -6px 12px #ffffff;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
 <body>
-
-<h1>Marcus Channell</h1>
-<p>I like Docker!</p>
-
-<h1>Contact Info:</h1>
-<p>Email: Comming Soon!
-  Phone: Comming Soon!</p>
-
+    <div class="container">
+        <header>
+            <h1>Welcome to my Website!</h1>
+        </header>
+        <main>
+            <p>Hello there! My name is Marcus Channell. I am excited to have you visit this simple and friendly website. Feel free to explore and enjoy your time here. It is not much at this very moment and I hope to expand it soon!</p>
+            <p>Currenlty pursuing Docker mastery and coding proficiency in HTMX/Kotlin. <a href="coming soon" class="neumorphism-btn">GitHub</a> page coming soon!</p>
+            <p>Don't hesitate to contact me if you have any questions or feedback!<br>
+	       Email: m.ka.c@outlook.com<br>
+	       Phone: 808-738-2460</p>
+        </main>
+        <footer>
+            <p>&copy; 2024 Dockily. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
